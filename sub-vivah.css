@@ -1,0 +1,884 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Birthstone+Bounce&family=Luxurious+Roman&family=Michroma&family=Noto+Sans+Arabic:wght@700&family=Sometype+Mono:ital@0;1&family=Source+Code+Pro:ital,wght@1,300&display=swap'); */
+@font-face {
+    
+    font-family: vi;
+    src: url(./VIVALDII.TTF);
+    
+}
+@font-face {
+    
+    font-family: mo;
+    src: url(Moralana\ DEMO.otf);
+    
+}
+@font-face {
+    font-family: al;
+    src: url(./Aldyn\ Heart\ Italic.ttf);
+}
+
+@font-face {
+    font-family:rej ;
+    src: url(./Rejouice-Headline.ttf);
+}
+
+@font-face {
+    font-family:arbic ;
+    src: url(./Amiri-Bold.ttf);
+}
+@font-face {
+    font-family: u ;
+    src: url(./Jameel\ Noori\ Nastaleeq\ Kasheeda.ttf);
+}
+@font-face {
+    font-family: u1;
+    src: url(./Nafees\ Regular.ttf);
+}
+@font-face {
+    font-family: us;
+    src: url(./Sadaf.ttf);
+}
+@font-face {
+    font-family: digi;
+    src: url(./digital-7.ttf);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rej;
+    
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+    
+
+}
+
+body {
+    height: 50%;
+    width: 100%;
+    background: url(image/bg2.jpeg);
+    background-size: cover;
+    position: relative;
+
+    
+
+
+    color: #550329;
+
+    font-size: x-large;
+    font-size: 1.5vw;
+    
+    
+
+
+
+
+
+}
+samp{
+    position: absolute;
+    pointer-events: none;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+    animation: fadeInOut 1s linear infinite;
+}
+@keyframes fadeInOut {
+    0% ,100%
+    {
+        opacity: 0;
+
+    }
+    20% ,80%
+    {
+        opacity: 1;
+
+    }
+    
+
+
+    
+}
+samp::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(image/heart.png);
+    background-size: cover;
+    animation: moveShape 1s linear infinite;
+
+
+
+}
+@keyframes moveShape {
+    0%
+    {
+        transform: translate(0) rotate(0deg);
+
+    }
+    100%
+    {
+        transform: translate(300px) rotate(360deg);
+
+    }
+    
+}
+span{
+    position: absolute;
+    pointer-events: none;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+    animation: fadeInOut 1s linear infinite;
+}
+@keyframes fadeInOut {
+    0% ,100%
+    {
+        opacity: 0;
+
+    }
+    20% ,80%
+    {
+        opacity: 1;
+
+    }
+    
+
+
+    
+}
+
+
+.groom-logo
+{
+    
+    height: 15vh;
+    width: 20vw;
+    position: relative;
+    padding: 2vw 2vw;
+    
+    
+     float: right;
+    justify-content: right;
+    
+}
+
+.logok
+{
+    height: 12vh;
+    width: 15vw;
+    padding: 2vw 2vw;
+     float: left;
+     position: relative;
+     justify-content: left;
+
+    
+}
+.nimatran{
+    display: flex;
+    
+    width: 20vw;
+    padding-top: 5px;
+    margin: auto;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+
+}
+
+.vivah-logo{
+    display: flex;
+    
+    width: 17vw;
+    padding-top: 5px;
+    margin: auto;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+}
+.hadish
+{   
+    
+    
+    
+    margin: auto;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(51, 0, 0);
+    
+    
+    
+     font-size: 1.7vw;
+     
+}
+.Invited
+{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    
+    
+    text-align: center;
+    letter-spacing: 3px;
+     
+     font-size: 1.5vw;
+   
+
+}
+.Invited h2 span{
+    display: inline-block;
+}
+
+
+
+.bridehand{
+    text-align: center;
+    width: 15vw;
+}
+
+   
+
+
+
+
+
+
+
+
+img {
+    width: 100%;
+
+}
+
+.container {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 1% 0;
+}
+
+.header {
+    flex-direction: grid;
+    
+
+}
+.moments{
+   
+    width: 100%;
+    text-decoration: underline;
+    color: #dfb707;
+    
+    margin-left: 10vw;
+
+    
+    font-size: 4vw;
+ 
+}
+.child{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5vw;
+    
+    color: #550329;
+    
+}
+
+ 
+
+
+
+
+
+
+.header h4 {
+    margin: 5% 0;
+
+}
+
+.navbar {
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar li a {
+    position: relative;
+    color: rgb(231, 12, 12);
+    text-decoration: none;
+    font-size: 2vw;
+    text-transform: uppercase;
+    
+    padding-bottom: 2px;
+    z-index: 0;
+    cursor: pointer;
+
+}
+
+.navbar li a:hover {
+    border: none;
+    padding-bottom: 0;
+}
+
+.navbar i {
+    height: auto;
+    width: auto;
+    position: relative;
+
+}
+
+.navbar li.circle-behind a::before,
+.navbar li.circle-behind a::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    height: 50px;
+    width: 50%;
+    background: transparent;
+    border: 4px solid #f6cb92;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.75);
+    z-index: -1;
+    transition: all 0.5s;
+    opacity: 0;
+
+}
+
+.navbar li.circle-behind a::after {
+    border: 2px solid #f6db92;
+    transition: all 0.25s;
+
+}
+
+.navbar li.circle-behind a:hover::before {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.navbar li.circle-behind a:hover::after {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.5);
+
+}
+
+.story,
+.wedding {
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2.5% 0;
+
+}
+
+.wedding {
+
+    background-image: url(image/bg2.jpeg);
+    background-size: cover;
+
+ position: absolute;
+    
+
+}
+/* @font-face{
+    font-family: 'Digital-7';
+    src:  url('fonts/digital-7.ttf') format('woff2'),   b ,g,mdrx
+    url('digital-7.woff') format('woff');
+} */
+
+.neon a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(228, 5, 72);
+    text-decoration: uppercase;
+    /* font-family: Amiri; */
+
+    letter-spacing: .5px;
+    text-decoration: none;
+    
+    font-size: 2vw;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+.neon a:hover {
+    color: #f7f7f7;
+    background: #e20837;
+    box-shadow: 0 0 10px #e20837, 0 0 40px #e20837, 0 0 80px #e20837;
+    
+    transition-delay: 1s;
+}
+
+.neon a span {
+    position: absolute;
+    display: block;
+
+}
+
+.neon a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #e4040f);
+
+
+}
+
+.neon a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #e4040f);
+
+
+}
+
+.neon a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+
+    background: linear-gradient(180deg, transparent, #e4040f);
+
+
+}
+
+.neon a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+
+    background: linear-gradient(360deg, transparent, #e4040f);
+
+
+}
+
+.neon a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+ /* yaah se dor ka code */
+
+
+#string{
+    height: 20vw;
+    width: 100%;
+   margin-left:0 ;
+   
+    /* background-color: aqua; */
+}
+svg{
+    background-color:#cfc1a700;
+    color: transparent;
+}
+
+
+
+
+.story .img-container,
+.wedding .img-container {
+    width: 45%;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: inset -8px -10px 0px 0px #80808040 -5px -5px -15px #4228051a,
+        inset -2.5px -2.5px 7.5px #42280580;
+}
+
+.story .img-container {
+    box-shadow: -12.5px -12.5px 25px #182f2440,
+        5px 5px 15px #182f241a, inset 2.5px 2.5px 7.5px #182f2480;
+    inset: -8px -10px 0px 0px #80808040;
+
+}
+
+.wedding .img-container {
+
+
+      box-shadow: -12.5px -12.5px 25px #182f2440,
+        5px 5px 15px #182f241a, inset 2.5px 2.5px 7.5px #182f2480;
+    inset: -8px -10px 0px 0px #80808040;
+
+
+
+}
+
+.story .img-container img,
+.wedding .img-container img {
+
+    border-radius: 8px;
+
+
+
+}
+
+.img-container .last {
+    
+    margin-top: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Amiri;
+    
+    
+    font-size: 1.3vw;
+
+
+    
+
+   
+   
+  
+    
+   
+    
+
+}
+
+
+
+
+.story.text-container,
+.wedding .text-container {
+    width: 45%;
+
+
+}
+
+.story .text-container p,
+.wedding .text-container p {
+    width: 100%;
+    text-align: justify;
+    margin: 2.5% 0;
+
+
+
+
+}
+
+ .reminder-container {
+    
+    flex-direction: column;
+    background-image: linear-gradient(#28282880, transparent),
+        url(image/rose\ video.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fbe7cc;
+    animation: bgRollingAnim 12s ease infinite;
+} 
+
+
+@keyframes bgRollingAnim {
+
+    0%,
+    100% {
+        background-position:top ;
+
+    }
+
+    20.5%,
+    30.5%,
+    40.5%,
+    71.5% {
+        background-position: center;
+
+    }
+
+    100% {
+        background-position: bottom  ;
+    }
+
+} 
+
+
+
+
+.reminder {
+    justify-content: space-around;
+    font-size: 2.5vw;
+    text-shadow: 5px 5px 10px rgb(51, 0, 0);
+
+}
+
+.reminder div {
+    width: max-content;
+    background: #80808040;
+    border: 1px solid #80808040;
+    border-radius: 1.6vw;
+    box-shadow: 0 0 10px 1px #05040440;
+    backdrop-filter: blur(10px);
+    padding: 3.2vw;
+}
+
+.reminder div span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-size: 4vw;
+    text-align: center;
+
+
+
+}
+
+.reminder div div {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: blur(0);
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+
+
+}
+
+.text-container .text-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2.5%;
+
+
+}
+
+.text-container .text-wrapper div {
+    width: 33%;
+
+}
+
+.text-container {
+    text-align: center;
+
+
+}
+
+.wedding .map {
+    
+   
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    
+
+    /* text-decoration: none; */
+    
+    
+}
+
+.marquee {
+    position: absolute;
+    /* white-space: nowrap; */
+    color: gold;
+    
+    font-size: 2.5vw;
+    -webkit-animation: rightThenLeft 12s infinite;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 62%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.marquee h4 {
+    background: linear-gradient(to left,
+            #70108d 20%,
+            #74f5d5 30%,
+            #6e0606 50%,
+            #f1d118 80%,
+            #0c97b9 30%,
+            #0c6d04 2%,
+            #728dd4 10%,
+            #070303 40%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    background-size: 1000% auto;
+    animation: textShine 10s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 70%;
+    }
+
+    70% {
+        background-position: 100% 90%;
+    }
+}
+
+
+/* yahan se heart    rain kacode */
+
+/* .heart {
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    
+
+}
+
+.heart::before {
+    content: '';
+    position: absolute;
+    top: -10vw;
+    left: 2vw;
+
+
+    width: 20vw;
+    height: 30vw;
+    background: #9b0528;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+    rotate: 315deg;
+    z-index: 1000;
+    animation: animateHeart 2s steps(1) infinite;
+}
+
+.heart::after {
+    content: '';
+    position: absolute;
+    top: -10vw;
+    left: 9.2vw;
+
+    width: 20vw;
+    height: 30vw;
+    background: #9b0528;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+    rotate: 45deg;
+    z-index: 1000;
+    animation: animateHeart 2s steps(1) infinite;
+}
+
+@keyframes animateHeart {
+    
+
+
+    0%,
+    94%,
+    100% {
+        filter: none;
+
+    }
+
+    95% {
+        filter: drop-shadow(0 0 50px #f00) drop-shadow(0 0 150px #f00);
+        background: #f00;
+    }
+
+}
+
+.drop {
+    position: absolute;
+    top: 3vw;
+    width: 3vw;
+    height: 3vw;
+    filter: drop-shadow(5px 5px 10px #000) drop-shadow(0px 0px 10px #f00);
+    transform-origin: bottom;
+    animation: animate 4s linear forwards;
+
+
+
+
+}
+
+.drop::before {
+    content: '';
+    position: absolute;
+    width: 2vw;
+    height: 3vw;
+    background: #f00;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    transform-origin: bottom center;
+    rotate: -45deg;
+    z-index: 100000;
+}
+
+.drop::after {
+    content: '';
+    position: absolute;
+    bottom: 0.3vw;
+    width: 3vw;
+    height: 2vw;
+    background: #f00;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    transform-origin: bottom center;
+    rotate: 315deg;
+    z-index: 100000;
+}
+
+@keyframes animate {
+    0% {
+        top: 4vw;
+        opacity: 1;
+        scale: 1;
+
+    }
+
+    70% {
+        top: 40vw;
+        opacity: 1;
+
+    }
+
+    80% {
+        top: 40vw;
+    }
+
+    100% {
+        top: 40vw;
+        opacity: 0;
+        scale: 0;
+
+
+    }
+
+} */
