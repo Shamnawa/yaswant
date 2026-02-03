@@ -1,20 +1,20 @@
-// document.addEventListener("contextmenu",function(e){
-//     e.preventDefault()
-// },false)
+document.addEventListener("contextmenu",function(e){
+    e.preventDefault()
+},false)
 
 
-// document.onkeydown = function(e) {
-//     if (e.ctrlKey && 
-//         (e.keyCode === 67 || 
-//          e.keyCode === 86 || 
-//          e.keyCode === 85 || 
-//          e.keyCode === 117)) {
-//         alert('Sorry ! Strictly Not allowed This function for it`s Web Page');
-//         return false;
-//     } else {
-//         return true;
-//     }
-// };
+document.onkeydown = function(e) {
+    if (e.ctrlKey && 
+        (e.keyCode === 67 || 
+         e.keyCode === 86 || 
+         e.keyCode === 85 || 
+         e.keyCode === 117)) {
+        alert('Sorry ! Strictly Not allowed This function for it`s Web Page');
+        return false;
+    } else {
+        return true;
+    }
+};
 
 
 
